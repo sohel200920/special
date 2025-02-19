@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>A gift for you</title>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    button {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 12px 25px;
+      background-color: #E1306C;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    button:hover {
+      background-color: #C13584;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cube-container">
+    <div class="cube" id="cube">
+      <div class="top"></div>
+      <div class="lil top-right"></div>
+      <div class="lil top-left"></div>
+      <div class="lil top-back"></div>
+      <div class="lil top-front"></div>
+      <div class="front"></div>
+      <div class="back"></div>
+      <div class="left"></div>
+      <div class="right"></div>
+      <div class="bottom"></div>
+      <div class="other" id="bow">🎀</div>
+      <div class="other" id="gift">😀</div>
+    </div>
+  </div>
+  <button onclick="window.location.href='insta.html'">NEXT</button>
+  <script src="./script.js"></script>
+</body>
+
+</html>
